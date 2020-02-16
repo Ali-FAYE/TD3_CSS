@@ -1,0 +1,79 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	display: flex;
+	background-color:#FFC0CB;
+	flex-direction:row;
+    flex-wrap:wrap;
+    height:100vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: solid 2px; 
+}
+#Haut
+{
+	display: flex;
+	flex-basis: 100%;
+	background-color:purple;
+	height: 20%;
+	align-content: center;
+}
+#Menu
+{
+	display: flex;
+	flex-basis: 100%;
+	background-color:blue;
+	height: 5%;
+	align-content: center;
+	margin-bottom: 10px;
+}
+.Z1
+{
+	display: flex;
+	flex-basis: 24.5%;
+    background-color:red;
+    height: 15%;
+    margin: 2px;
+    align-self: flex-start;
+}
+.Z2
+{
+	display: flex;
+	flex-basis: 24.5%;
+    background-color:orange;
+    height: 15%;
+    margin: 2px;
+    align-self: flex-start;
+}
+.Z3
+{
+	display: flex;
+	flex-basis: 24.5%;
+    background-color:green;
+    height: 15%;
+    margin: 2px;
+    align-self: flex-end;
+    flex-wrap: nowrap;
+}
+.Z4
+{
+	display: flex;
+	flex-basis: 24.5%;
+    background-color:brown;
+    height: 15%;
+    margin: 2px;
+    align-self: flex-end;
+    flex-wrap: nowrap;
+}
+#Bas
+{
+	display: flex;
+	flex-basis: 100%;
+    background-color:gray;
+    height: 10%;
+    align-content: center;
+    margin-top: 10px;
+}

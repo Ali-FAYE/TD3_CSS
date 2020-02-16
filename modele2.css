@@ -1,0 +1,41 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	display: flex;
+	flex-direction:row;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#Haut
+{
+	display: flex;
+	flex-basis: 100%;
+    background-color:#FF0000;
+    height: 20%;
+}
+#Gauche
+{
+	display: flex;
+	flex-basis: 10%;
+	background-color: blue;
+	height: 80%;
+}
+#Milieu
+{
+	display: flex;
+	flex-basis: 80%;
+	background-color:green;
+	height: 80%;
+}
+#Droite
+{
+	display: flex;
+	flex-basis: 10%;
+	background-color:#A52A2A;
+	height: 80%;
+}

@@ -1,0 +1,48 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	display: flex;
+	flex-direction:row;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: solid 2px; 
+}
+#Haut
+{
+	display: flex;
+	flex-basis: 100%;
+	background-color: green;
+	height: 15%;
+	align-content: center;
+}
+#Menu
+{
+	display: flex;
+	flex-basis: 100%;
+	background-color:purple;
+	height: 6%;
+	align-content: center;
+}
+#Milieu
+{
+	display: flex;
+	flex-basis: 100%;
+    background-color:orange;
+    height: 64%;
+    margin: 10px;
+    padding: 10px;
+    align-content: center;
+}
+#Bas
+{
+	display: flex;
+	flex-basis: 100%;
+    background-color:green;
+    height: 10%;
+    align-content: center;
+}
