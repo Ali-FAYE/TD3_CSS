@@ -1,0 +1,90 @@
+html, body{
+margin:0;
+padding:0;
+ }
+.menu{
+	display: flex;
+	flex-direction:row;
+    flex-wrap: wrap;
+    height: 100vh;
+    border: solid 2px; 
+      
+}
+#Haut
+{
+	display: flex;
+	flex-basis: 100%;
+    background-color:red;
+    height: 20%;
+   
+}
+#Droite
+{
+	display: flex;
+	flex-basis: 19%;
+	background-color:blue;
+	height: 60%;
+}
+#Gauche
+{
+	display: flex;
+	flex-basis: 19%;
+	background-color: blue;
+	height: 60%;
+	
+}
+.Z1
+{
+	display: flex;	
+	flex-basis: 12%;
+	background-color:green;
+	height: 60%;
+	margin: 2px;
+	
+}
+.Z2
+{
+	display: flex;	
+	flex-basis: 12%;
+	background-color:green;
+	height: 60%;
+	align-self: flex-start;
+	margin: 2px;
+}
+.Z3
+{
+	display: flex;	
+	flex-basis: 12%;
+	background-color:green;
+	height: 60%;
+	align-self: flex-start;
+	margin: 2px;
+}
+.Z4
+{
+	display: flex;	
+	flex-basis: 12%;
+	background-color:green;
+	height: 60%;
+	align-self: flex-start;
+	margin: 2px;
+}
+.Z5
+{
+	display: flex;	
+	flex-basis: 12%;
+	background-color:green;
+	height: 60%;
+	align-self: flex-start;
+	margin: 2px;
+}
+#Bas
+{
+	display: flex;
+	flex-basis: 100%;
+	background-color:yellow;
+	height: 20%;
+	justify-content: flex-start;
+	margin: auto;
+
+}
